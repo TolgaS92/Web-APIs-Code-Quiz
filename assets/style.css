@@ -4,3 +4,10 @@
   box-sizing: border-box;
 }
 
+h1 {
+  color: rgb(133, 1, 1);
+}
+a.navbar-brand.score {
+  color: blue;
+  font-weight: bold;
+}
