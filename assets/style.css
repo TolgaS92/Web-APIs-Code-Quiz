@@ -4,17 +4,3 @@
   box-sizing: border-box;
 }
 
-
-
-
-.card::after {
-    content: " ";
-    display: block;
-    clear: both;
-  }
-  
-  .clearfix::after {
-    content: " ";
-    display: block;
-    clear: both;
-  }
