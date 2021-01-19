@@ -7,7 +7,17 @@
 h1 {
   color: rgb(133, 1, 1);
 }
+
 a.navbar-brand.score {
   color: blue;
   font-weight: bold;
+  margin-top: auto;
+}
+
+a.navbar-brand.score {
+  color: rgb(167, 165, 165);
+}
+
+p.time {
+  color: rgba(250, 194, 168, 0.856);
 }
