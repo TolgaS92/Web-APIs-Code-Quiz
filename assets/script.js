@@ -79,7 +79,7 @@ function questions() {
 function answerCheck(event) {
     console.log("answer check");
     if (myQuest[k].correctAnswer !== event.target.textContent) {
-        secondsLeft -= 5;
+        secondsLeft;
     } else { }
     if (k < myQuest.length - 1) {
         k++;
