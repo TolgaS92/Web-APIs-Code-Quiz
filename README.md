@@ -1,4 +1,6 @@
-# Web-APIs-Code-Quiz
+## Code-Quiz
+# Web-APIs
+
 
 
 ## Libraries
@@ -26,9 +28,9 @@
 ## ScreenShots
 
 # Password generator Screenshots
-- ![Mainpage](./assets/MainPage.jpg)
-- ![Questionpage](./assets/Questionanswerswithtimer.jpg)
-- ![Scorepage](./assets/Highscores.jpg)
+- ![Mainpage](./assets/screenshots/MainPage.jpg)
+- ![Questionpage](./assets/screenshots/Questionanswerswithtimer.jpg)
+- ![Scorepage](./assets/screenshots/Highscores.jpg)
 
 
 ## Link
