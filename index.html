@@ -13,7 +13,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="scoreboard navbar-brand score" href="assets/scoreboard.html">View
+            <a id="highScores" class="scoreboard navbar-brand score" href="#">View
                 Highscores</a>
             <p class="time mb-0"></p>
         </div>
@@ -22,24 +22,42 @@
         <h1 class="text-center mt-5">Welcome to Code Quiz Challenge</h1>
     </div>
     <hr>
-    <div class="container">
-        <div class="col-sm-12">
-            <div class="text-center">
-                <h2>Questions about Javascript</h2>
-            </div>
-            <div class="d-flex justify-content-center">
-                <button id="toggle" type="button" class="start btn btn-primary btn-lg text-center mt-5">START</button>
+    <main class="resultMain">
+        <div class="container">
+            <div class="col-sm-12">
+                <div class="text-center">
+                    <h2>Questions about Javascript</h2>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button id="toggle" type="button"
+                        class="start btn btn-primary btn-lg text-center mt-5">START</button>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="text-center">
-        <div class="btn-group" role="group" aria-label="Basic outlined example">
-            <button type="button" class="btn btn-outline-primary p-3 m-3">A</button>
-            <button type="button" class="btn btn-outline-primary p-3 m-3">B</button>
-            <button type="button" class="btn btn-outline-primary p-3 m-3">C</button>
-            <button type="button" class="btn btn-outline-primary p-3 m-3">D</button>
+        <div class="text-center questionAnswer">
+            <div id="showButton" class="btn-group d-none" role="group" aria-label="Basic outlined example">
+            </div>
         </div>
-    </div>
+        <section id="playerName" style="display: none">
+            <div class="nameInput">
+                <h4 class="text-center" id="highscore"></h4>
+                <div class="text-center">
+                    <form id="submit">
+                        <input type="text" name="username" id="username" placeholder="Initials" />
+                        <button type="submit" class="btn-sm">Save Your Score</button>
+                    </form>
+                    <button id="hiScores" class="btn-md">View High Scores</button>
+                </div>
+            </div>
+        </section>
+        <div id="resultView" class="container">
+            <div class="row">
+                <section class="col-sm-12">
+                    <div class="result" style="display: none"></div>
+                </section>
+            </div>
+        </div>
+    </main>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>

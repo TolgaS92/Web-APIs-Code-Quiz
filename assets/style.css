@@ -21,3 +21,21 @@ a.navbar-brand.score {
 p.time {
   color: rgba(250, 194, 168, 0.856);
 }
+
+button {
+  background-color: rgb(200, 227, 243);
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 12px;
+}
+button:hover {
+  background-color: rgb(107, 148, 65);
+}
+
+section div p {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: darkgray;
+}
