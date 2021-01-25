@@ -79,12 +79,13 @@ function questions() {
 function answerCheck(event) {
     console.log("answer check");
     if (myQuest[k].correctAnswer !== event.target.textContent) {
-        secondsLeft;
-    } else { }
+        secondsLeft -= 7;
+    }
     if (k < myQuest.length - 1) {
         k++;
         questions();
-    } else finishGame();
+    } else
+        finishGame();
 }
 
 //** Score calculate*/

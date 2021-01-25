@@ -5,8 +5,7 @@
 
 ## Libraries
 1. Bootstrap
-2. Jquery
-3. Javascript
+2. Javascript
 
 ## About
 - The purpose of this page to play quick quiz game with given questions. And to get highest point.
